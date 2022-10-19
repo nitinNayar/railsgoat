@@ -134,6 +134,8 @@ Starting MailCatcher
 
 Alternatively, you can run MailCatcher in the foreground by running `mailcatcher -f` in your terminal.
 
+## Semgrep CI Workflow added
+
 ## Contributing
 
 Please see our [contribution document](./CONTRIBUTING.md) to learn more. Additionally, note that as changes are made to the application, the Capybara RSpecs can be used to verify that the vulnerabilities in the application are still intact. To use them in this way, and have them change to `pending` instead of `fail`, set the `RAILSGOAT_MAINTAINER` environment variable.
